@@ -29,7 +29,6 @@ export class EmailService {
   }
 
   async sendOrderEmail(order: Order): Promise<boolean> {
-    console.log(this.orderTemplate({ order }));
     await this.sendEmail(
       order.recipientEmail,
       'Your Wild Ice Creamery Order',
