@@ -29,7 +29,11 @@ You can use docker-compose to pull and run the postgres db by running
 
 You can seed the db with products by running the insert script at `./init-seed.sql`
 
-## Run the API
+# Run tests
+
+`yarn test` or `npm test`
+
+# Run the API
 
 `yarn start` or `npm start`
 
