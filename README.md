@@ -24,6 +24,7 @@ See .env.example for the required environment variables.
 
 You can use docker-compose to pull and run the postgres db by running
 `docker-compose up -d`
+Connect to it remotely, and create a new db called wildicecreamery. Note the user/password in the docker-compose.yml for connection. When the app starts, it will create all the tables.
 
 ### Seed db with products (optional)
 
